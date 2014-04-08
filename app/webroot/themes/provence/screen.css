@@ -253,12 +253,12 @@ a.reverse:hover {
 						text-indent: -9000px;
 						width: 135px;
 }
-					
+/*					
 #lescigales_probox ul {
   padding-top: 5em;
-					padding-left : 9em;
+  padding-left : 9em;
 }
-				
+				*/
 #lescigales_freebox {
   background: url(images/bg_boxOffrePerso.png) top left no-repeat #f9df37;				
 				height: 190px;
@@ -277,7 +277,8 @@ a.reverse:hover {
 						width: 135px;					
 }
 						
-#lescigales_freebox ul {
+#lescigales_freebox ul,
+#lescigales_probox ul {
   padding-top: 6em;
   padding-left: 10em;
 }											

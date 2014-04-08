@@ -7,6 +7,11 @@ $years = date('Y') - 2003;
 			<div id="lescigales_rightmenus">
 			<?php echo $this->element('lastnews', array('cache' => '5 minute')); ?>
 			<?php echo $this->element('lastregistered_box', array('cache' => '5 minute')); ?>
+			
+<!--			<iframe style="padding-left: 1em; padding-top: 0.5em;" src="http://ghbtns.com/github-btn.html?user=lescigalesorg&type=follow&count=true&size=large" height="30" width="240" frameborder="0" scrolling="0" style="width:240px; height: 30px;" allowTransparency="true"></iframe>-->
+			
+       <iframe style="padding-left: 1em; padding-top: 0.5em;" src="http://ghbtns.com/github-btn.html?user=lescigalesorg&type=follow"  allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"></iframe> 
+
 			</div><!-- rightmenus -->
 			
 			<div id="lescigales_maincontent">
@@ -15,21 +20,30 @@ $years = date('Y') - 2003;
 				  <h1>Hébergement gratuit sans publicité</h1>
 				</div>-->
      
-				<div id="lescigales_freebox">
-					<ul>
-						<li>100 Mo d'espace disque</li>
-						<li>Langages PHP 5.X, Perl, Python et Ruby</li>
-						<li>2 bases de données MySQL</li>
-<!-- 						<li>1 adresse email @lescigales.org</li> -->
-					</ul>
-					<a href="/hebergement-gratuit" title="Hébergement gratuit de sites PHP">En savoir plus</a>
-				</div>
+        <div id="lescigales_freebox">
+          <ul>
+            <li>100 Mo d'espace disque</li>
+            <li>FastCGI: PHP 5.2, 5.3, 5.4, 5.5, 5.6</li>
+            <li>CGI: Perl, Python et Ruby</li>
+            <li>2 bases de données MySQL</li>
+          </ul>
+          <a href="http://admin.lescigales.org/users/register" title="Hébergement gratuit de sites PHP">En savoir plus</a>
+        </div>        
+        <div id="lescigales_probox">
+          <ul>
+<!--             <li>&nbsp;</li> -->
+            <li>1 nom de domaine</li>
+            <li>5000 Mo d'espace disque</li>
+            <li>Pas de limite de sites</li>
+          </ul>
+          <a href="http://admin.lescigales.org/users/register" title="Hébergement gratuit de sites PHP">En savoir plus</a>
+        </div>
 
 <div id="lescigales_text">
  <p>
-Depuis 2003 (<?php echo $years; ?> ans déjà !), nous avons comme mission de fournir de l'hébergement gratuit au plus grand nombre, hébergement sans publicité aucune, que ce soit popups, frames ou bandeaux, vous n'en trouverez jamais sur vos sites, sauf si vous désirez en mettre * !</p>
+Depuis 2003 (<?php echo $years; ?> ans déjà !), nous avons comme mission de fournir de l'hébergement gratuit au plus grand nombre, hébergement sans publicité aucune, que ce soit popups, frames ou bandeaux, vous n'en trouverez jamais sur vos sites, sauf si vous désirez en mettre * (* sauf sur les offres persos où vous n'avez pas le droit) !</p>
 
-<p><strong>Versions: 
+<p><strong> 
 <?php
 
 $versions = array();
@@ -49,7 +63,9 @@ foreach ($versions as $v => $l) {
 
 ?>
 </strong></p>
-
+<!-- <br /> -->
+<!-- <br /> -->
+<!-- <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> -->
 </div>
 
 </div>

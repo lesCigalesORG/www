@@ -44,9 +44,9 @@
       </div><!-- contenu -->
       
       <div id="lescigales_footer">
-	        <a href="http://validator.w3.org/check?uri=referer" title="Respecte la norme XHTML 1.0"><acronym title="eXtensible Hypertexte Markup Language">xhtml</acronym></a>
+<!-- 	        <a href="http://validator.w3.org/check?uri=referer" title="Respecte la norme XHTML 1.0"><acronym title="eXtensible Hypertexte Markup Language">xhtml</acronym></a> -->
 
-        <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://<?php echo $_SERVER['SERVER_NAME']; ?>" title="Respecte la norme CSS 2.0"><acronym title="Cascading Style Sheets">css</acronym></a>
+<!--         <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://<?php echo $_SERVER['SERVER_NAME']; ?>" title="Respecte la norme CSS 2.0"><acronym title="Cascading Style Sheets">css</acronym></a> -->
         <em><a href="http://www.epsylonia.net/" target="_blank">J&amp;J Associates, s.r.o.</a></em> &copy; 2008 - Tous droits r&eacute;serv&eacute;s
       </div>
       

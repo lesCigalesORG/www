@@ -19,7 +19,7 @@
       <li>Bratislava 851 03, Slovaquie</li>
     </ul>
   </div>
-  <div class="lescigales_rightbox even">
+<!--  <div class="lescigales_rightbox even">
     <h2>Emails</h2>
     <ul>
 			<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#105;&#114;&#101;&#99;&#116;&#105;&#111;&#110;&#64;&#108;&#101;&#115;&#99;&#105;&#103;&#97;&#108;&#101;&#115;&#46;&#111;&#114;&#103;" title="Direction générale">Direction générale</a></li>
@@ -27,7 +27,7 @@
 			<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#101;&#99;&#104;&#110;&#105;&#113;&#117;&#101;&#64;&#108;&#101;&#115;&#99;&#105;&#103;&#97;&#108;&#101;&#115;&#46;&#111;&#114;&#103;" title="Service technique">Service technique</a></li>
 			<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#111;&#97;&#100;&#64;&#108;&#101;&#115;&#99;&#105;&#103;&#97;&#108;&#101;&#115;&#46;&#111;&#114;&#103;" title="Directeur technique">Directeur technique</a></li>
     </ul>
-  </div>
+  </div>-->
   <div class="lescigales_rightbox even">
 		<h2>Forum</h2>
 		<ul>
@@ -37,7 +37,7 @@
   <div class="lescigales_rightbox even">
 		<h2>Chat en ligne</h2>
 		<ul>
-			<li><a href="http://chat.lescigales.org/" title="Chat en ligne" target="_blank">http://chat.lescigales.org</a></li>
+			<li><a href="/chat" title="Chat en ligne" target="_blank">http://www.lescigales.org/chat</a></li>
 		</ul>
 	</div><!-- rightbox -->
 

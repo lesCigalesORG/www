@@ -5,6 +5,7 @@ RELEASE = a4b@lescigales.org:./www
 RSYNC	= -azv -e ssh --cvs-exclude --delete --exclude 'app/tmp/*'
 RSYNCNC = -azv -e ssh --cvs-exclude --delete --exclude 'app/tmp/logs/*'
 
+default: nocache
 send:
 	@clean
 	rsync $(RSYNC) . $(REMOTE)
