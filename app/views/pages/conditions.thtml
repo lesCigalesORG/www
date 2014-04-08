@@ -1,0 +1,34 @@
+<div id="lescigales_text">
+<h1>Conditions</h1>
+
+<p>Voici la liste non exhaustive des conditions pour être hébergé gratuitement:</p>
+
+<p>Vous devez:</p>
+<ul>
+
+<li>ne pas utiliser votre hébergement à des fins lucratives (pas de publicité tolérée)</li>
+<li>ne pas héberger un contenu pornographique</li>
+<li>ne pas héberger un "tracker" de fichiers torrent (une des technologies du peer to peer)</li>
+<li>ne pas ouvrir un service de streaming audio ou vidéo</li>
+<li>ne pas ouvrir un service de proxy ouvert à tous</li>
+<li>ne pas ouvrir un site avec uniquement un script pour exécuter des commandes sur le serveur en shell</li>
+<li>ne pas lancer de services sur le serveur (eggdrop, irc botnet, bnc)</li>
+<li>fournir vos vrais nom et prénom (l'hébergement anonyme est interdit)</li>
+<li>ne pas abuser des ressources des serveurs (processeur, mémoire, réseau ou disque)</li>
+<li>ne pas installer un jeu de type Xnova, Ogame</li>
+</ul>
+
+<p>.. sans oublier que les sites illégaux sont forcément proscrits:</p>
+
+<ul>
+<li>sites qui offrent en téléchargement direct du contenu illégal</li>
+<li>sites qui diffusent de la pornographie infantile</li>
+<li>sites racistes</li>
+<li>sites de phising (imitation d'un service connu, tel paypal ou une banque afin de voler le client)</li>
+</ul>
+
+<p><a href="/contact">Signaler un site qui ne respecte pas les règles</a></p>
+
+<p>N'oubliez pas: le fait que nos serveurs ne soient pas en France ne signifie pas que notre service ne soit pas soumis aux lois francaises, bien au contraire, étant donné que le public visé est majoritairement francais.</p>
+
+</div>

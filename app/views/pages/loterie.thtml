@@ -1,0 +1,58 @@
+
+
+			<!--div id="menusContextuels"-->
+				<div id="lescigales_rightmenus">
+			
+				<!--div id="derniersGagnants"-->
+<!--    <div id="lescigales_lastwinners">
+    
+					<h2>Derniers gagnants</h2>
+					<ul>
+						<li><a href="" title="derniersGagants1"><span>Date</span>derniersGagants1</a></li>
+						<li><a href="" title="derniersGagants2"><span>Date</span>derniersGagants2</a></li>
+						<li><a href="" title="derniersGagants3"><span>Date</span>derniersGagants3</a></li>
+					</ul>
+				</div>
+				-->
+				<!--div id="siteAuHasard"-->
+<!--    <div id="lescigales_randomsite">
+					<h2>Site au hasard</h2>
+					<a href="" title="Site au hasard"><img src="<?php echo $this->webroot; ?>themes/provence/images/siteAuHasard.png" alt="Site au hasard" /></a>
+				</div>
+				-->
+        <div id="lescigales_partners">
+				<!--div id="partenaires"-->
+					<h2>Partenaires</h2>
+					<ul>
+<!--						<li><a href="" title="partenaires1">www.lescigales.org</a></li>
+						<li><a href="" title="partenaires2">www.wkdzign.net</a></li>
+						<li><a href="" title="partenaires3">www.gebura.eu.org</a></li>-->
+					</ul>
+				</div>
+   </div><!-- menuContextuels -->
+            
+
+				<!--div id="boxPro">
+					<ul>
+						<li>Mon avantage1</li>
+						<li>Mon avantage1</li>
+					</ul>
+					<a href="" title="Offre Pro d&egrave;taill&eacute;e">En savoir plus</a>
+				</div>
+					
+				<div id="boxPerso">
+					<ul>
+						<li>5 gigas d'espace serveur</li>
+						<li>Mon avantage1</li>
+					</ul>
+					<a href="" title="Offre Perso d&egrave;taill&eacute;e">En savoir plus</a>
+				</div-->
+
+
+		
+        <div id="lescigales_maincontent">
+<div id="lescigales_text">
+
+<h1>Loterie</h1>
+</div>
+        </div>

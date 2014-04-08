@@ -1,0 +1,233 @@
+
+
+*{
+	/*border: 1px solid red; /*Affiche les contours de tous les éléments */
+	font-family:  arial, tahoma, helvetica, times, sans-serif;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	}
+
+a{
+	color: #8650b3;
+	text-decoration: none;
+	}
+	
+body{
+	background: #ffffff;
+	text-align: center;
+	}
+	
+#conteneur{
+	background: #ffffff;
+	margin: auto;	
+	position: relative;
+	text-align: justify;
+	width: 774px;
+	}
+	
+	#header{
+		background: url(images/bg_header.png) bottom left no-repeat #ffffff;
+		height: 122px;
+		margin-top: 0;
+		padding-top: 20px;
+		width: 774px;
+		}		
+		
+		#menu{			
+			height: 20px;			
+			padding-left: 330px;
+			position: absolute; top: 0; left: 0;
+			width: 504px;
+			}
+			
+			#menu #goContenu{
+				border: 0;
+				font-size: 0.65em;
+				}
+			
+			#menu a:link, #menu a:visited{
+				border-right: 1px solid #8650b3;
+				color: #8650b3;
+				font-size: 0.7em;
+				padding-right: 0.4em;
+				}
+				
+		#register{
+			margin-left: 500px;
+			}
+			
+			#register a:link, #register a:visited{				
+				display: block;
+				float: left;
+				height: 111px;
+				text-indent: -9000px;
+				width: 122px;
+				}
+			
+			#register a#sInscrire:link, #register a#sInscrire:visited{
+				background: url(images/bg_boutSInscrire.png) top left no-repeat #ffffff;				
+				}				
+			
+			#register a#monCompte:link, #register a#monCompte:visited{
+				background: url(images/bg_boutMonCompte.png) top left no-repeat #ffffff;				
+				}
+		
+	#contenu{
+		margin-top: 1em;
+		position: relative;
+		width: 774px;
+		}
+		
+		#menusContextuels{
+			margin-left: 555px;
+			position: absolute; right: 0;
+			width: 219px;
+			}
+			
+			#derniersInscrits, #derniersGagnants, #siteAuHasard, #partenaires{
+					margin: 1em 0.5em 0 0.5em;
+				}
+			/*	
+			#partenaires{
+				background: #e6cefb;
+				padding-bottom: 1em;
+				}
+				
+					#partenaires a{
+						margin-left: 1em;
+						}
+			*/				
+				#derniersInscrits h2, #derniersGagnants h2, #siteAuHasard h2, #partenaires h2{
+					background: url(images/bg_h2.png) top left no-repeat !important;
+					background: url(images/bg_h2IE.png) top left no-repeat;
+					border-bottom: 1px solid #8650b3;
+					color: #8650b3;					
+					font-size: 0.9em;
+					font-weight: bold;
+					margin-bottom: 1em;
+					padding: 0.5em 0 0.5em 2.7em;
+					}
+					
+				#derniersInscrits li, #derniersGagnants li, #partenaires li{
+					color: #76868a;	
+					font-size: 0.7em;
+					font-weight: bold;
+					line-height: 2em;					
+					}
+					
+				#derniersInscrits span, #derniersGagnants span{
+					font-weight: normal;
+					margin-right: 0.3em;
+					}
+					
+				#siteAuHasard img{
+					border: 0;
+					}
+			
+		#contenuPrincipal{
+			background: url(images/bg_texte.png) right bottom no-repeat #ffffff;
+			padding-bottom: 2em;
+			width: 555px;
+			}	
+
+			#boxPro{
+				background: url(images/bg_boxOffrePro.png) top left no-repeat #f9df37;
+				height: 196px;
+				position: relative;
+				width: 546px;
+				}	
+					
+					#boxPro a{						
+						background: url(images/bg_boutEnSavoirPlus.png) bottom left no-repeat !important;
+						background: url(images/bg_boutEnSavoirPlusIE.png) bottom left no-repeat;
+						display: block;						
+						height: 50px;
+						line-height: 1.7em;
+						position: absolute; top: 135px; right: 30px;
+						text-indent: -9000px;
+						width: 135px;
+					}
+					
+					#boxPro ul{
+					padding-top: 5em;
+					padding-left : 9em;
+					}
+				
+			#boxPerso{
+				background: url(images/bg_boxOffrePerso.png) top left no-repeat #f9df37;				
+				height: 190px;
+				position: relative;
+				width: 546px;
+				}
+					
+					#boxPerso a{												
+						background: url(images/bg_boutEnSavoirPlus.png) bottom left no-repeat !important;
+						background: url(images/bg_boutEnSavoirPlusIE.png) bottom left no-repeat;
+						display: block;
+						height: 50px;
+						line-height: 1.7em;
+						position: absolute; top: 125px; right: 30px;
+						text-indent: -9000px;
+						width: 135px;					
+						}
+						
+					#boxPerso ul{
+						padding-top: 4.5em;
+						padding-left: 9em;
+					}											
+					
+					#boxPro li, #boxPerso li{						
+						color: #8650b3;
+						font-size: 0.8em;
+						font-weight: bold;
+						line-height: 1.7em;						
+					}
+					
+			#texte{
+				margin-bottom: 1em;
+			}
+			
+			#texte p{
+				color: #76868a;	
+				font-size: 0.8em;
+				line-height: 1.7em;				
+				margin: 1em 1.5em 0 1.7em;
+				}
+			
+			#menuBox{
+				background: url(images/bg_menuBox.png) top left no-repeat #f7effd;
+				border: 1px solid #8650b3;
+				font-size: 0.7em;				
+				margin-top: 2em;
+				margin-left: 2em;
+				padding: 0.5em;
+				width: 340px;
+				}
+				
+				#menuBox a{															
+					margin-left: 0.5em;
+					}
+				
+				#menuBox th{										
+					color: #8650b3;
+					font-weight: bold;
+					margin-right: 1em;
+					}
+				
+				#menuBox td{										
+					margin: 0.5em 0.5em 0.5em 1em;
+					}				
+				
+	#footer{
+		color: #b3b9ba;
+		font-size: 0.7em;
+		padding-left: 400px;
+		text-align: center;
+		width: 374px;
+		}
+		
+			#footer a{
+				color: #b3b9ba;
+				margin-right: 1em;
+				}

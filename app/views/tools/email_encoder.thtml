@@ -1,0 +1,56 @@
+<?php
+// $this->layout = 'hebergement';
+
+?>
+
+<div id="lescigales_maincontent">
+
+<div id="lescigales_text">
+
+<h1>Email encoder / Encodeur d'email</h1>
+
+<?php
+echo $form->create('Encoder', array('url' => env('REQUEST_URI')));
+// echo $form->label('Encoder.email', '');
+echo $form->input('Encoder.email', array('label'=>'Adresse email: '));
+echo $form->submit("Encoder votre email!");
+?>
+</form>
+
+
+<?php if (isset($validEmail)): ?>
+
+<?php
+
+function encode($string, $protected = false) {
+	$newString = '';
+	for ($i = 0; isset($string[$i]); $i++) {
+		$char = $string[$i];
+		$dec = ord($char);
+		if ($protected === false) {
+			$newString .= '&#' . $dec . ';';
+		} else {
+			$newString .= '&amp;#'.$dec.';';
+		}
+	}
+	return $newString;
+}
+
+$newEmail = encode($validEmail);
+$newEmailP = encode($validEmail, true);
+?>
+<h2>Votre email encodé: <?php echo $newEmail; ?></h2>
+<p>Source:</p>
+<textarea cols="80" rows="2"><?php echo $newEmailP;?></textarea>
+<?php
+$mailto = encode('mailto:');
+$mailtoP = encode('mailto:', true);
+?><!--<br /><br /><hr /><br />-->
+<h2>Lien pour envoyer un email: <a href="<?php echo $mailto, $newEmail; ?>"><?php echo $newEmail; ?></a></h2>
+<p>Source:</p>
+<textarea cols="80" rows="2"><a href="<?php echo $mailtoP,$newEmailP;?>"><?php echo $newEmailP; ?></a></textarea>
+
+
+<?php endif; ?>
+
+</div></div>

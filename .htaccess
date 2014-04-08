@@ -1,0 +1,24 @@
+AddType application/x-httpd-php5-fastcgi .php
+
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteRule    ^$ app/webroot/    [L]
+   RewriteRule    (.*) app/webroot/$1 [L]
+</IfModule>
+
+#Order Allow,Deny
+#Allow from 81.31.8.118
+
+#ErrorDocument 404 /home/users/00/00/17/home/www/app/config/database.php
+
+<IfModule mod_expires.c>
+# day: 86,400 week: 604,800 month: 2,678,400
+# Pictures:
+  ExpiresByType image/gif A2678400
+  ExpiresByType image/jpg A2678400
+  ExpiresByType image/png A2678400
+  ExpiresByType image/x-icon A2678400
+  ExpiresByType text/css A26778400
+</IfModule>
+
+FileETag None

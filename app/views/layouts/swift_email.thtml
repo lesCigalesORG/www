@@ -1,0 +1,69 @@
+<?php
+/* SVN FILE: $Id: default.thtml 3972 2006-11-25 23:05:36Z phpnut $ */
+/**
+ *
+ * PHP versions 4 and 5
+ *
+ * CakePHP :  Rapid Development Framework <http://www.cakephp.org/>
+ * Copyright (c)	2006, Cake Software Foundation, Inc.
+ *								1785 E. Sahara Avenue, Suite 490-204
+ *								Las Vegas, Nevada 89104
+ *
+ * Licensed under The MIT License
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @filesource
+ * @copyright		Copyright (c) 2006, Cake Software Foundation, Inc.
+ * @link				http://www.cakefoundation.org/projects/info/cakephp CakePHP Project
+ * @package			cake
+ * @subpackage		cake.cake.libs.view.templates.pages
+ * @since			CakePHP v 0.10.0.1076
+ * @version			$Revision: 3972 $
+ * @modifiedby		$LastChangedBy: phpnut $
+ * @lastmodified	$Date: 2006-11-25 17:05:36 -0600 (Sat, 25 Nov 2006) $
+ * @license			http://www.opensource.org/licenses/mit-license.php The MIT License
+ */
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>lesCigales.ORG : H&eacute;bergement gratuit</title>
+<link rel="icon" href="<?php echo $this->webroot . 'favicon.ico';?>" type="image/x-icon" />
+<link rel="shortcut icon" href="<?php echo $this->webroot . 'favicon.ico';?>" type="image/x-icon" />
+<?php 
+echo $html->css('style', 'stylesheet', array('title' => 'lesCigales.ORG'));
+echo $html->css('banniere', 'stylesheet', array('title' => 'lesCigales.ORG'));
+?>
+</head>
+<body>
+
+<div id="banner_border_top"></div>
+
+<div id="banner">
+	<div class="banner_border_leftright"></div>
+		<div id="banner_content">
+				<div id="musiccontrol"></div>
+		</div>
+	<div class="banner_border_leftright"></div>
+</div>
+
+<div id="banner_border_bottom"></div>
+
+<div id="content">
+<div class="article_content">
+
+<?php echo $content_for_layout; ?>
+
+</div>
+
+	<div id="content_maximize">&nbsp;</div>
+	</div><!-- <div id=content> -->
+	
+<div id="footer"></div>
+
+<div id="footer2"><p>lesCigales.ORG &copy; 2007</p></div>
+
+	<?php echo $cakeDebug?>
+
+</body>
+</html>

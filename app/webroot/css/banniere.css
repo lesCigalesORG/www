@@ -1,0 +1,40 @@
+#banner {
+ 	/* Tailles sans les contours
+		(2x10px en hauteur et 2x8px largeur)
+	 */
+	height: 241px;
+}
+
+#banner_content{
+ 	/* Tailles sans les contours Aussi */
+	height: 241px;
+	background: yellow;
+} 
+
+/* Remove This */
+
+#banner_content{
+	display:none;
+
+} 
+
+#banner_border_top{
+	display: none;
+
+}
+
+#banner_border_bottom{
+	background: url('/img/bg_center.png')  no-repeat ;
+}
+
+#banner {
+	height: 261px;
+	width: 790px;
+	background: url('/img/header.jpg')  no-repeat ;
+}
+
+
+
+.banner_border_leftright{
+	display: none;
+}

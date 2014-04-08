@@ -1,0 +1,410 @@
+/************************************
+
+	Page et proprietes communes
+
+************************************/
+body {
+	margin: 0 0 0 0;
+	background-color: #FFFFFF;
+}
+
+*{
+	margin: 0 0 0 0;
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 12px;
+}
+
+a {
+	color: #CF0049;
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+a:visited {
+	color: #CF0049;
+}
+
+a:hover {
+	color: #E86291;
+}
+
+/************************************
+
+		Banniere
+
+************************************/
+#banner_border_top{
+	margin-left:auto;
+	margin-right:auto;
+
+	width: 790px;
+	height: 10px;
+ 	background: top url('/img/header.jpg')  no-repeat ;
+}
+
+#banner_border_bottom{
+	clear: both;
+	margin-left:auto;
+	margin-right:auto;
+
+	width: 790px;
+	height: 10px;
+ 	background: bottom url('/img/header.jpg')  no-repeat ;
+}
+
+#banner {
+	margin-left:auto;
+	margin-right:auto;
+	height: 241px;
+	width: 790px;
+}
+
+
+
+.banner_border_leftright{
+	width: 8px;
+	float: left;
+	height: 100%;
+ 	background: bottom url('/img/header.png')  no-repeat ;
+	background: blue;
+}
+
+
+
+#banner_content{
+	float: left;
+
+	height: 241px;
+	width: 774px;
+	background: red;
+} 
+
+
+
+#musiccontrol{
+margin: 0 0 0 0;
+	position: relative;
+
+	top: 85%;
+	left: 680px;
+	}
+
+#musiccontrol a img {
+	border: none;
+}
+
+/************************************
+
+		Menu
+
+************************************/
+
+
+#menu {
+	margin-left:auto;
+	margin-right:auto;
+
+	background: #FAF7F0 url('/img/menu.png') no-repeat;
+
+	width: 742px;
+	height: 40px;
+	
+	margin-bottom: 20px;
+}
+
+#menu ul{
+	/*
+	padding: top right bottom left
+	*/
+	padding: 10px 0 0 0;
+
+	text-align:center;
+
+	font-weight:bold;
+	font-size: 15px;
+}
+
+#menu li{
+	display: inline;
+	list-style-image: none;
+
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+/************************************
+
+	Zone Centrale
+
+************************************/
+
+
+#content {
+	margin-left:auto;
+	margin-right:auto;
+
+	width: 790px;
+/*	min-height: 200px;*/	/* Ne marche pas avec ie*/
+
+	padding-top:10px;
+
+	background: #FAF7F0 url('/img/bg_center.png');
+	}
+
+		
+#content_maximize{
+	clear: both;
+	}
+
+#content_centerbackground{
+	float: left;
+
+	background: url('/img/sepa.png') repeat-y;
+	background-position: 185px 0px;
+}
+
+
+/************************************
+
+	News
+
+************************************/
+
+
+.news{
+	margin: 0 0 0 0;
+	
+	width: 525px;
+	margin-left: 250px;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+
+.titre_news{
+	float: left;
+
+	text-transform: uppercase;
+	font-weight:bold;
+	font-size: 12px;
+	color: #FF3C00;
+}
+
+.date_news{
+	float: right;
+
+	font-size: 10px;
+	color: #FF3C00;
+}
+
+.text_news{
+	padding-top: 2em;
+
+	font-size: 10px;
+	color: #404040;
+
+	text-align: justify;
+
+	padding-bottom:50px;
+}
+
+.text_news p{
+padding-top: 0.5em;
+
+}
+
+.boutton_news {
+text-align: right;
+padding:1em 2em 0 0;
+}
+
+/************************************
+
+	Boites
+
+************************************/
+
+
+.lesboxes{
+	width: 180px;
+	margin-left: 10px;
+	float: left;
+}
+
+.boxe {
+	margin: 0 0 1em 0;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+
+
+.titre_boxe{
+ 	background: top url('/img/bg_boxes_top.png') no-repeat;
+
+	width: 168px;
+	height: 25px;
+	}
+
+.titre_boxe p{
+	padding-top: 8px;
+
+	text-align:center;
+	text-transform: uppercase;
+	color: #CF0049;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+
+.contenu_boxe {
+ 	background: #fde88d bottom url('/img/bg_boxes.png')  no-repeat ;
+	background-repeat: no-repeat;
+ 	min-height: 175px;
+ 	width: 168px;
+	}
+
+.contenu_boxe *{
+	margin-left:auto;
+	margin-right:auto;
+
+			
+
+}
+
+
+/************************************
+
+	Contenu Boites
+
+	p		 => texte
+	ul li		 => liste
+	ul li .titre	 => titre
+	ul li .stitre	 => sous titre
+	ul li a		 => lien (dans une liste)
+	ul li a:hover	 => lien hover (dans une liste)
+	img		 => image , petit logo.
+************************************/
+.contenu_boxe p{
+	padding: 0em 1em 0.5em 1em;
+	/*
+	padding: top right bottom left
+	*/
+
+	color: #CF0049;
+	font-size: 14px;
+	text-align: left;
+}
+
+.contenu_boxe ul{
+	width: 162px;			/* overide taille a cause du tour blanc olbig d enlever quelques pixels*/
+	padding-left: 0em; 		/* Ne pas modifier ici sinon decallage du fond...*/
+	
+	padding-top: 0em;
+	padding-bottom: 0.5em;
+
+}
+.contenu_boxe li{
+	display: block;
+	list-style-image: none;
+	text-align: left;
+	
+	padding-left: 0;		/* ...Mais possibilit de modifier ici ou dans chaque element*/
+				
+}
+
+.contenu_boxe li.titre{
+	background-color: #FFDD66;
+	color: #CF0049;
+
+	font-weight:bold;
+
+	height: 2em;
+	padding-top: 0.75em;
+
+	padding-left: 0.5em;
+}
+
+.contenu_boxe li.stitre{
+	background-color: #FFDD66;
+	color: #CF0049;
+
+	height: 1.75em;
+	padding-top: 0.75em;
+
+	padding-left: 0.5em;
+}
+
+.contenu_boxe li a{
+	display: block;
+	height: 1.75em; /* Overide Bug ie */
+	padding-top: 0.75em;
+	
+	padding-left: 0.75em;
+}
+
+.contenu_boxe li a:hover{
+	background-color: #FFCC66;
+	color: #FF3C00;
+	font-weight:bold;
+}
+
+.contenu_boxe img{
+
+}
+
+/************************************
+
+	Pied de page
+
+************************************/
+
+
+#footer {
+
+	margin-left:auto;
+	margin-right:auto;
+
+	width: 790px;
+	height: 18px;
+
+	background: #FAF7F0 url('/img/bas.png');
+	background-repeat: no-repeat;
+	margin-bottom: 1.5em;
+}
+
+#footer2{
+	margin-left:auto;
+	margin-right:auto;
+
+	width: 790px;
+	height: 50px;
+
+	background: url('/img/bg_footer.jpg');
+	background-repeat: no-repeat;
+}
+
+#footer2 p{
+	text-align: center;
+	font-size: 12px;
+	padding: 15px 1em 0 1em;
+}
+
+.article_content {
+ padding: 14px;
+}
+
+.error_message {
+ font-weight: bold;
+ color: red;
+ 
+}
+
+#flashMessage {
+ font-weight: bold;
+ color: blue;
+ margin-bottom: 2em;
+ text-align: center;
+}
+

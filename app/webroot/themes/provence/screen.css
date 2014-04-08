@@ -1,0 +1,705 @@
+
+
+*{
+  /*border: 1px solid red; /*Affiche les contours de tous les �l�ments */
+  font-family:  arial, tahoma, helvetica, times, sans-serif;
+  list-style-type: none;
+  margin: 0;
+	padding: 0;
+	font-size: 13px;
+	}
+
+a{
+  color: #8650b3;
+	text-decoration: none;
+}
+	
+body{
+  background: #ffffff;
+	text-align: center;
+}
+	
+#lescigales_container {
+  /* #conteneur{ */
+  background: #ffffff;
+	margin: auto;	
+	position: relative;
+	text-align: justify;
+	width: 774px;
+}
+	
+#lescigales_header {
+  background: url(images/bg_header.png) bottom left no-repeat #ffffff;
+	height: 122px;
+	margin-top: 0;
+	padding-top: 20px;
+	width: 774px;
+}		
+
+#lescigales_header a {
+	display: block;
+	float: left;
+	height: 112px;
+	text-indent: -9000px;
+	width: 440px;
+}
+
+		
+#lescigales_menu {			
+  height: 20px;			
+  padding-left: 330px;
+  position: absolute; top: 0; left: 0;
+  width: 404px;
+}
+			
+#lescigales_menu #goContenu{
+  border: 0;
+/*				font-size: 0.65em; */
+}
+#lescigales_menu a {
+	padding-right: 0.4em;
+	padding-left: 0.4em;
+}
+#lescigales_menu a:hover {
+	text-decoration: underline;
+}
+#lescigales_menu a:link, #lescigales_menu a:visited{
+  border-right: 1px solid #8650b3;
+  color: #8650b3;
+/*				font-size: 0.7em;*/
+  font-size: 11px;
+}
+#lescigales_register{
+  margin-left: 500px;
+	margin-top: 30px;
+	position: absolute;
+	top: 0;
+}
+			
+#lescigales_register a:link, #lescigales_register a:visited{				
+  display: block;
+	float: left;
+	height: 111px;
+	text-indent: -9000px;
+	width: 122px;
+}
+			
+#lescigales_register a#sInscrire:link, #lescigales_register a#sInscrire:visited{
+  background: url(images/bg_boutSInscrire.png) top left no-repeat #ffffff;				
+}				
+			
+#lescigales_register a#monCompte:link, #lescigales_register a#monCompte:visited{
+  background: url(images/bg_boutMonCompte.png) top left no-repeat #ffffff;				
+}
+		
+#lescigales_content {
+  background: url(images/bg_texte.png) right bottom no-repeat #ffffff;
+  color: #76868a;			
+/*		font-size: 0.8em; fais merder les menus a cote les boxPro et boxPerso */
+	margin-top: 1em;
+	padding-bottom: 2em;
+	position: relative;
+	width: 774px;
+}
+		
+#lescigales_maincontent {
+  padding-bottom: 2em;
+  width: 555px;
+}
+
+/* Right menus: */
+#lescigales_rightmenus {
+  margin-left: 555px;
+			position: absolute; right: 0;
+			width: 219px;
+}
+		
+.lescigales_rightbox {
+  margin: 1em 0.5em 0 0.5em;	
+}
+.lescigales_rightbox h2 {
+  border-bottom: 1px solid #8650b3;
+					color: #8650b3;
+/*					font-size: 0.9em;*/
+					font-size: 15px;
+					letter-spacing: 1px;
+					font-weight: bold;
+					margin-bottom: 1em;
+					padding: 0.5em 0 0.5em 0.5em;
+			
+}
+		
+.lescigales_rightbox.odd h2 {
+  background: url(images/bg_h2.gif) right no-repeat;
+}
+.lescigales_rightbox.even h2 {
+  background: url(images/bg_h2.gif) left no-repeat;
+			padding: 0.5em 0 0.5em 50px;
+}
+.lescigales_rightbox li, .lescigales_rightbox a {
+  font-size: 12px;
+}
+
+/* Links box on the frontpage */
+
+.lescigales_linksbox {
+ margin: 1em 0.5em 0 0.5em;
+}
+.lescigales_linksbox h2 {
+ background: url(images/bg_h2.gif) left no-repeat;
+ padding: 0.5em 0 0.5em 3.2em;
+ border-bottom: 1px solid #8650b3;
+ color: #8650b3;
+ font-size: 15px;
+ letter-spacing: 1px;
+ font-weight: bold;
+ margin-bottom: 1em;
+}
+.lescigales_linksbox li {
+ color: #76868a;	
+ font-weight: bold;
+ line-height: 1.6em;	
+}
+
+#lescigales_partners, #lescigales_lastwinners, #lescigales_randomsite, #lescigales_lastregistered {
+  margin: 1em 0.5em 0 0.5em;
+}
+			
+#lescigales_partners {
+ background: #e6cefb;
+ padding-bottom: 0.2em;
+}
+				
+#lescigales_partners a {
+ margin-left: 1em;
+}
+					
+#lescigales_lastregistered h2, #lescigales_lastwinners h2, 
+#lescigales_randomsite h2, #lescigales_partners h2 {
+/*#derniersInscrits h2, #derniersGagnants h2, #siteAuHasard h2, #partenaires h2{ */
+  background: url(images/bg_h2.png) top left no-repeat !important;
+					background: url(images/bg_h2IE.png) top left no-repeat;
+					border-bottom: 1px solid #8650b3;
+					color: #8650b3;			
+/*					font-size: 0.9em;*/
+ letter-spacing: 1px;
+ margin-left: 4px;
+					font-weight: bold;
+/* 					margin-bottom: 1em; */
+					margin-bottom: 0.5em;
+					padding: 0.5em 0 0.5em 2.7em;
+}
+					
+#lescigales_lastregistered li, #lescigales_lastwinners li, #lescigales_partners li {
+/* #derniersInscrits li, #derniersGagnants li, #partenaires li{ */
+/*   color: #76868a;	 */
+					color: #8650b3;
+/*					font-size: 0.7em;*/
+					font-weight: bold;
+					line-height: 1.4em;					
+}
+#lescigales_lastregistered li.first {
+	margin-top: 0.8em;
+}
+#lescigales_lastregistered li.info {
+	font-size: 13px;
+}
+
+#lescigales_lastregistered span, #lescigales_lastwinners span {
+/* #derniersInscrits span, #derniersGagnants span{ */
+					font-weight: normal;
+					margin-right: 0.3em;
+					}
+
+/* Li.right: */
+#lescigales_randomsite li.right,
+#lescigales_lastregistered li.right {
+	text-align: right;
+}
+#lescigales_randomsite li.right a,
+#lescigales_lastregistered li.right a {
+	font-size: 11px;
+}
+
+#lescigales_randomsite img {
+/* #siteAuHasard img{ */
+  border: 0;
+}
+
+a.reverse {
+	text-decoration: underline;
+}
+a.reverse:hover {
+	text-decoration: none;
+}
+		
+		
+		/* Boxes */
+		
+#lescigales_probox {
+  background: url(images/bg_boxOffrePro.png) top left no-repeat #f9df37;
+				height: 196px;
+				position: relative;
+				width: 546px;
+}	
+					
+#lescigales_probox a {						
+  background: url(images/bg_boutEnSavoirPlus.png) bottom left no-repeat !important;
+						background: url(images/bg_boutEnSavoirPlusIE.png) bottom left no-repeat;
+						display: block;						
+						height: 50px;
+						line-height: 1.7em;
+						position: absolute; top: 135px; right: 30px;
+						text-indent: -9000px;
+						width: 135px;
+}
+					
+#lescigales_probox ul {
+  padding-top: 5em;
+					padding-left : 9em;
+}
+				
+#lescigales_freebox {
+  background: url(images/bg_boxOffrePerso.png) top left no-repeat #f9df37;				
+				height: 190px;
+				position: relative;
+				width: 546px;
+}
+					
+#lescigales_freebox a {												
+  background: url(images/bg_boutEnSavoirPlus.png) bottom left no-repeat !important;
+						background: url(images/bg_boutEnSavoirPlusIE.png) bottom left no-repeat;
+						display: block;
+						height: 50px;
+						line-height: 1.7em;
+						position: absolute; top: 125px; right: 30px;
+						text-indent: -9000px;
+						width: 135px;					
+}
+						
+#lescigales_freebox ul {
+  padding-top: 6em;
+  padding-left: 10em;
+}											
+					
+#lescigales_probox li, #lescigales_freebox li {						
+ color: #8650b3;
+ font-weight: bold;
+ line-height: 1.7em;
+ font-size: 100%;						
+/*						font-size: 0.8em; */
+}
+
+/* Text formatting */
+		
+#lescigales_text blockquote{
+  background: url(images/bg_blockquote.gif) right top no-repeat #f5eefb;
+			border-left: 2px solid #8650b3;
+			color: #8650b3;
+			display: block;
+			font-family: "Georgia";
+			margin: 1em 4em 1em 4em;
+			padding: 0.5em 40px 0.5em 1em;
+			text-decoration: italic;
+/*			font-size: 13px;*/
+			}
+		
+		
+#lescigales_text form{
+			background: url(images/bg_form.gif) right bottom no-repeat;
+			border: 1px solid #76868a;
+			border-left: 10px solid #8650b3;
+			margin: 2em;
+			}
+
+#lescigales_text form fieldset{
+			clear: both;
+			border:0;
+			padding: 0.3em 0 0.3em 0;
+			}
+
+#lescigales_text form label {
+			float: left;
+			width: 140px;
+			margin: 0 0.3em 0 0.3em;
+			color: #8650b3;			
+		}
+		/* Cursor position */
+#lescigales_text input.in, #lescigales_text textarea {
+			padding-left: 6px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			padding-right: 2px;
+		}
+#lescigales_text form textarea {
+			width: 320px;
+		}
+#lescigales_text form#contact input {
+			width: 260px;
+		}
+#lescigales_text form#contact select {
+			width: 260px;
+		}
+		/* Color of text in form fields */
+#lescigales_text input.in, #lescigales_text textarea, #lescigales_text select {
+			color: #8650b3;
+		}
+		
+		/* Funky style */
+#lescigales_text input.in, #lescigales_text textarea, #lescigales_text select {
+			border: 1px solid #c19ae1;
+			background-color: #f5eefb;
+			}
+#lescigales_text input.in:hover, 
+#lescigales_text textarea:hover, 
+#lescigales_text select:hover {
+			background-color: #d8b8f3;
+			border: 1px solid #8650b3;
+			}
+#lescigales_text input.in:focus, 
+#lescigales_text textarea:focus, 
+#lescigales_text select:focus {
+			background-color: #fff;
+			border: 1px solid #8650b3;
+			}
+			
+		
+		/*  Ici on d�finit les tailles personnalis�es des diff�rents formulaires en fonction de leur id */
+		
+#lescigales_text form#demo{
+  width: 500px;
+}
+		
+#lescigales_text h1{
+			background: url(images/bg_h1.gif) left no-repeat;
+			border-bottom: 1px solid #8650b3;
+			border-left: 1px solid #8650b3;
+			color: #8650b3;
+/*			font-size: 1.3em;*/
+			font-size: 17px;
+			letter-spacing: 1px;
+			line-height: 34px;
+			margin: 2em 0 0.5em 0;
+			padding-left: 50px;
+			width: 80%;
+}
+		
+#lescigales_text h2{
+  background: url(images/bg_h2.gif) left no-repeat;
+			color: #8650b3;
+/*			font-size: 1em;*/
+			font-size: 14px;
+			letter-spacing: 1px;
+			line-height: 27px;
+			margin: 1em 0 0.5em 2em;
+			padding-left: 50px;
+}
+			
+#lescigales_text input{
+  color: #8650b3;
+/*			font-weight: bold; */
+/*			margin: 0 0.5em; */
+}
+		
+#lescigales_text input.bouton{
+			background: #ffffff;
+			border: 1px solid #8650b3;
+			border-left: 5px solid #8650b3;
+			color: #8650b3;
+			padding: 0.2em;
+			font-weight: bold;
+}
+			
+#lescigales_text li{
+  list-style-type:circle;
+			margin: 0.5em; 
+}		
+		
+#lescigales_text p{				
+  line-height: 1.2em;				
+			margin: 1em 1.5em 0 1.7em;
+/*			font-size: 13px;*/
+}
+			
+#lescigales_text p.chapeau{				
+/*			font-size: 1.2em;*/
+			font-size: 14px;
+			line-height: 1.7em;				
+			margin: 1em 1.5em 0 1.7em;
+}
+		
+#lescigales_text span.code{
+  background: url(images/bg_code.gif) right top no-repeat #f5eefb;
+			border-left: 2px solid #8650b3;
+			color: #8650b3;
+			display: block;
+			font-family: "Courier New";
+			margin: 1em 4em 1em 4em;
+			padding-left: 1em;
+			padding-right: 50px;
+}
+		
+#lescigales_text table{
+			background: url(images/bg_petitAngle.gif) right bottom no-repeat;
+			border: 1px solid #76868a;
+			border-left: 10px solid #8650b3;
+			margin: 1em;
+			padding-right: 40px;
+}
+		
+#lescigales_text td{
+  padding: 0.5em;
+}
+			
+#lescigales_text th{
+  padding: 0.5em;
+}
+		
+#lescigales_text textarea{
+/*			color: #8650b3;
+/ *			font-size: 1em; * /
+			font-weight: bold; */
+			/*
+			margin: 0 0.5em;
+			padding: 0.5em;
+							  */
+			
+}
+		
+		/*  Ici on d�finit les tailles personnalis�es des diff�rents formulaires en fonction de leur id */
+		
+#lescigales_text textarea#demo{
+  height: 80px;
+			width: 300px;
+}
+		
+#lescigales_text ul{
+  margin-left: 4em; 
+}		
+
+/* MENUBOX */
+#lescigales_menubox {
+			background: url(images/bg_menuBox.png) top right no-repeat #f7effd;
+			border: 1px solid #8650b3;
+/*			font-size: 0.7em;				*/
+			margin-top: 2em;
+			margin-left: 2em;
+			padding: 0.5em;
+			width: 460px;
+			font-size: 11px;
+			}
+				
+#lescigales_menubox a {
+/*	margin-left: 0.3em;
+	padding-right: 0.5em; */
+	margin: 0;
+	padding: 0;
+	font-size: 11px;
+}
+#lescigales_menubox a:hover {
+	text-decoration: underline;
+}
+			
+#lescigales_menubox a:link, #lescigales_menubox a:visited{
+				border-right: 1px solid #cab3de; /* #8650b3; */
+				color: #8650b3;
+/*				font-size: 0.7em;*/
+/*				padding-right: 0.4em;*/
+}
+#lescigales_menubox a.start {
+	margin-left: 2em;
+}
+#lescigales_menubox a.end {
+	border: 0;
+}
+#lescigales_menubox a {
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+}
+#lescigales_menubox a.start {
+	padding-left: 0;
+}
+#lescigales_menubox a.end {
+	padding-right: 0;
+}
+
+			
+#lescigales_menubox th{										
+				color: #8650b3;
+/*				font-size: 1.2em; */
+				font-weight: bold;
+/*				margin-right: 1em; */
+				font-size: 11px;
+
+}
+				
+#lescigales_menubox td{										
+/*				font-size: 1.2em; */
+				margin: 0.5em 0.5em 0.5em 1em;
+				font-size: 11px;
+
+}
+#lescigales_menubox acronym {
+				font-size: 11px;
+}
+		
+#float{
+			background: url(images/bg_float.png) bottom no-repeat #f7f26f;
+			border: 2px solid #facf06;
+			color: #8650b3;
+			float: right;
+			font-weight: bold;
+			margin: 1em;
+			padding: 10px;
+			width: 180px;
+}
+		
+.lescigales_floatleft, .lescigales_floatright {
+/* .float_left, .float_right { */
+			background: url(images/bg_float.png) bottom no-repeat #f7f26f;
+			border: 2px solid #facf06;
+			color: #8650b3;
+			font-weight: bold;
+			margin: 1em;
+			padding: 10px;
+			width: 180px;
+}
+		
+.lescigales_floatleft {
+  float: left;
+}
+.lescigales_floatright {
+			float: right;
+}
+		
+				
+#lescigales_footer {
+		color: #b3b9ba;
+/*		font-size: 0.7em;*/
+		padding-left: 400px;
+		padding-bottom: 10px;
+		text-align: center;
+		width: 390px;
+}
+		
+#lescigales_footer , #lescigales_footer *{
+  font-size: 11px;
+}
+#lescigales_footer a{
+  color: #b3b9ba;
+  margin-right: 1em;
+}
+#lescigales_footer a:hover {
+	text-decoration: underline;
+}
+#lescigales_footer a.end {
+  margin-right: 0;
+}
+
+/* CakePHP debug */
+pre {
+	background-color:black;
+	color:white;
+	text-align:left;
+}
+/* Contact page errors */
+div.error-message {
+	color: red;
+	margin-left: 4px;
+}
+input.form-error, textarea.form-error {
+	border: 1px solid red;
+}
+#lescigales_text input.form-error, #lescigales_text textarea.form-error, #lescigales_text select.form-error {
+	border: 1px solid red;
+/* 	background-color: #fff; */
+}
+
+.website_progression {
+	color: black;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+#partners_footer {
+	margin-top: 4px;
+	margin-bottom: 6px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+#partners_footer a {
+/* 	color: black; */
+	font-size: 12px;
+	color: #8650b3;
+}
+#partners_footer img {
+	margin-top: 6px;
+}
+
+
+/***** Annuaire */
+
+#annuaire h1 {
+	font-size: 20px;
+  color: #8650b3;
+
+}
+#annuaire div.input {	display: inline;}
+#annuaire div.submit {	display: inline;}
+#annuaire form { padding: 10px; }
+#annuaire img {
+	border: 1px solid #b3b9ba;
+	width: 200px;
+	height: 150px;
+}
+#annuaire fieldset {
+/* 	border: 1px solid black; */
+	border: 0;
+}
+#annuaire fieldset div {
+ 	width: 540px;
+/* 	border: 1px solid red; */
+}
+#annuaire fieldset span {
+	display: block;
+}
+#annuaire div.nav {
+	padding: 10px;
+	text-align: center;
+	font-size: 16px;
+}
+#annuaire div.nav span, #annuaire div.nav a { font-size: 18px; font-weight: bold;}
+
+#annuaire span.title {
+	margin-top: 6px;
+	text-decoration: underline;
+	font-size: 20px;
+	font-weight: bold;
+}
+#annuaire span.desc {
+	margin-top: 12px;
+}
+#annuaire span.link {
+	font-size: 14px;
+}
+#annuaire fieldset.odd {
+}
+#annuaire fieldset.odd img,
+#annuaire fieldset.even div {
+	float: left;
+	text-align: right;
+}
+
+#annuaire fieldset.even {
+}
+
+#annuaire fieldset.even img,
+#annuaire fieldset.odd div {
+	text-align: left;
+	float: right;
+}
+

@@ -1,0 +1,24 @@
+#lescigales_header {
+  background: url(images/bg_headerAlt.png) bottom left no-repeat #ffffff;
+  height: 80px;
+}
+
+#lescigales_header a {
+/*	height: 80px;*/
+} 
+
+#lescigales_register {
+  margin-left: 550px;
+}
+
+#lescigales_register a:link, #lescigales_register a:visited{
+  width: 80px;
+}
+ 
+#lescigales_register a#sInscrire:link, #lescigales_register a#sInscrire:visited{
+  background: url(images/bg_boutSInscrireAlt.png) top left no-repeat #ffffff;
+}
+ 
+#lescigales_register a#monCompte:link, #lescigales_register a#monCompte:visited{
+  background: url(images/bg_boutMonCompteAlt.png) top left no-repeat #ffffff;
+}

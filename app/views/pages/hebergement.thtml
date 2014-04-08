@@ -1,0 +1,38 @@
+<?php
+$this->layout = 'hebergement';
+$this->pageTitle = 'Hébergement gratuit mutualisé sur cluster';
+$years = date('Y') - 2003;
+?>
+
+			<div id="lescigales_rightmenus">
+			<?php echo $this->element('lastnews', array('cache' => '5 minute')); ?>
+			<?php echo $this->element('lastregistered_box', array('cache' => '5 minute')); ?>
+			</div><!-- rightmenus -->
+			
+			<div id="lescigales_maincontent">
+						
+        <div id="lescigales_text">
+				  <h1>Hébergement gratuit sans publicité</h1>
+				</div>
+     
+				<div id="lescigales_freebox">
+					<ul>
+						<li>100 Mo d'espace disque</li>
+						<li>Langages PHP4, PHP5 et Perl</li>
+						<li>2 bases de données MySQL</li>
+						<li>1 adresse email @lescigales.org</li>
+					</ul>
+					<a href="/hebergement-gratuit" title="Hébergement gratuit">En savoir plus</a>
+				</div>
+
+<div id="lescigales_text">
+ <p>
+Depuis 2003 (<?php echo $years; ?> ans déjà !), nous avons comme mission de fournir de l'hébergement gratuit au plus grand nombre, hébergement sans publicité aucune, que ce soit popups, frames ou bandeaux, vous n'en trouverez jamais sur vos sites, sauf si vous désirez en mettre * !</p>
+
+<p>Version détaillée de PHP: phpinfo() <a href="/php/info.php" title="phpinfo() de .php" target="_blank">.php</a> <a href="/php/info.php4" title="phpinfo() de .php4" target="_blank">.php4</a> <a href="/php/info.php5" title="phpinfo() de .php5" target="_blank">.php5</a> <a href="/php/info.pl" title="phpinfo() de .pl" target="_blank">.pl</a></p>
+
+<p>* voir <a href="/conditions">conditions</a></p>
+
+</div>
+
+	</div>

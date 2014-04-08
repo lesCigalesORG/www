@@ -1,0 +1,31 @@
+<h1>Epsylon.ORG c'est fini....</h1>
+
+<p>.. mais les petites cigales travaillent dur pour vous faire une petite architecture au poil :)</p>
+
+
+<!--p>Pour f&ecirc;ter la r&eacute;ouverture qui aura lieu courant <b>Mars</b>, un certain nombre de personnes se verront 
+offrir <b>un h&eacute;bergement
+de 250 Mo avec PHP4, PHP5 et MySQL</b>. Si vous voulez participer &agrave; la loterie et <b>gagner un h&eacute;bergement</b>, 
+entrez <b>votre adresse email</b> dans le champs ci-dessous. D&eacute;j&agrave; <b><?php echo $inscrits; ?></b> participants !</p>
+
+<fieldset>
+<form method="post" action=<?php echo $html->url('/hebergement/gratuit'); ?>>
+<p>Votre email: <?php echo $html->input('Hebergement/email', array('size' => '50')); ?></p>
+<p><?php echo $html->submit('Oui je souhaite participer et peut &ecirc;tre gagner un h&eacute;bergement de 250 Mo sur lesCigales.ORG !'); ?></p>
+<p><?php echo $html->tagErrorMsg('Hebergement/email', 'Vous devez taper un email valide'); ?></p>
+<p><?php if (isset($error_message)) { echo '<div class="error_message">',$error_message,'</div>'; } ?></p>
+</form>
+</fieldset-->
+
+<h2>Liens utiles pour les 400 anciens h&eacute;berg&eacute;s</h2>
+
+Le <b>Forum</b> se trouve ici: <?php echo $html->link('https://forum.lescigales.org/'); ?><br />
+<b>PhpMyAdmin</b> ici: <?php echo $html->link('https://sql.lescigales.org'); ?><br />
+Le <b>webmail</b> ici: <?php echo $html->link('https://mail.lescigales.org'); ?><br />
+<b>L'administration mail</b>: <?php echo $html->link('https://qmailadmin.lescigales.org'); ?><br />
+<b>Un service de partage priv&eacute; fichiers</b>: <?php echo $html->link('http://upload.lescigales.org'); ?><br />
+<b>phpinfo pour PHP4</b>: <?php echo $html->link('/phpinfo/php4'); ?><br />
+<b>phpinfo pour PHP5</b>: <?php echo $html->link('/phpinfo/php5'); ?><br />
+
+<p>Suggestions, remarques, insultes: utilisez l'email suivant, <?php echo $html->linkEmail('toad@lescigales.org'); ?></p>
+

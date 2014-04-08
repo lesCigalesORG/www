@@ -1,0 +1,20 @@
+<?php
+$this->pageTitle = 'Hébergement gratuit - &Agrave; propos';
+?>
+<div id="lescigales_rightmenus">
+
+	<?php echo $this->element('box_enchiffres', array('cache'=>'1 hour')); ?>
+
+</div><!-- rightmenus -->
+
+<div id="lescigales_maincontent">
+
+<div id="lescigales_text">
+<h1>A propos</h1>
+<p>Notre mission est d'offrir de l'hébergement mutualisé au plus grand nombre, sur une architecture clusterisée, c'est à dire composée de plusieurs serveurs ayant le même rôle.</p>
+<p>Nous pensons que les webmasters ne devraient pas avoir à changer de types d'offres durant l'évolution de leur site: hébergement mutualisé, serveur privé virtuel, serveur dédié, cluster de serveurs dédies. Nous préférons vous offrir la solution sur laquelle vous resterez tout le temps: l'hébergement sur cluster afin de bénéficier d'une haute disponibilité et de hautes performances.</p>
+
+<p>Auparavant en partenariat avec Epsylon.ORG, nous avons décidé de nous consacrer uniquement à l'hébergement et de fonder notre propre entité (nouveau nom de domaine et société). Nous offrons de l'hébergement depuis 2003 (nous avions même une offre de serveur dédié à l'époque !).</p>
+
+</div><!-- text -->
+</div><!-- maincontent -->

@@ -1,0 +1,85 @@
+<?php
+$this->description = "Hébergement gratuit de sites sans publicité.";
+$this->pageTitle = "Hébergement gratuit de sites sans publicité";
+?>
+<div id="lescigales_text">
+<!-- div id="texte"-->
+<h1>H&eacute;bergement gratuit</h1>
+
+
+<div class="lescigales_floatleft">
+<a href="http://admin.lescigales.org/users/register/free" target="_blank" style="font-size: 14px;" title="Inscription à l'offre gratuite">S'inscrire maintenant</a>
+</div>
+
+<p>Depuis 2003 (5 ans déjà !), nous avons comme mission de fournir de l'hébergement gratuit au plus grand nombre, hébergement sans publicité aucune, que ce soit popups, frames ou bandeaux, vous n'en trouverez jamais sur vos sites, sauf si vous désirez en mettre !</p>
+
+<!--<div class="lescigales_floatright">
+Hébergement gratuit 100 Mo sans publicité
+</div>-->
+
+<p>Si bien sûr nous ne vous forcons pas à mettre de publicité sur votre site pour notre compte, ce n'est pas pour vous permettre de vous faire de l'argent en en mettant pour vous, bien évidemment.
+</p>
+
+<p>Afin de réguler la forte demande en comptes gratuits, nous avons décidé de n'en donner qu'un seul par jour (chiffre susceptible de changer par la suite) et de choisir la personne qui le recevra via un système de loterie<!-- dont vous pouvez retrouver tout le détail en <a href="/loterie" title="Tout le détail sur la loterie">suivant ce lien</a>-->.</p>
+
+
+<p>Aussi, à chaque fois qu'une personne achète un hébergement chez nous, des comptes sont ajoutés à la réserve de comptes gratuits disponibles à tous via notre loterie.</p>
+
+<h2>L'offre gratuite</h2>
+
+<div class="lescigales_floatright">
+PHP4, PHP5, Perl et 2 bases MySQL, 100 Mo
+</div>
+
+
+<p>
+<ul>
+<li>100 Mo d'espace disque</li>
+<li>Programmation côté serveur: PHP4, PHP5, Perl, Shell, CGIs</li>
+<li>2 bases de données MySQL</li>
+<li>Un email membre@lescigales.org</li>
+<li>Un nom de site http://membre.lescigales.org/</li>
+</ul>
+</p>
+
+<h2>Conditions pour devenir hébergé gratuitement</h2>
+
+<p>
+Etant titulaire d'un hébergement gratuit, vous ne pourrez:
+<ul>
+<li>utiliser votre hébergement à des fins lucratives</li>
+<li>héberger un contenu pornographique</li>
+<li>héberger un "tracker" de fichiers (une des technologies du peer to peer)</li>
+<li>ouvrir un service de streaming audio ou vidéo</li>
+</ul>
+</p>
+
+<p>
+Cette liste est non exhaustive et peut à tout moment être modifiée afin d'y inclure de nouveaux éléments considérés comme manquants auparavant. Pour prendre connaissance de l'intégralité de nos conditions, vous êtes invités à aller lire notre page <a href="/conditions" title="Conditions générales">conditions</a>.
+</p>
+
+<h2>Comment devenir membre gratuit ?</h2>
+
+<p>Pour ouvrir un compte gratuit, il vous suffit d'aller vous enregistrer en ligne à l'adresse suivante: <a href="http://admin.lescigales.org/users/register/free">http://admin.lescigales.org/users/register/free</a>. Vous aurez alors la possibilité d'ouvrir un compte directement, si toutefois il y a suffisament d'invitations publiques disponibles dans la réserve.</p>
+<p>Sinon, il vous reste 2 possibilités:
+<ul>
+<li>vous pouvez participer à la loterie afin de gagner un hébergement</li>
+<li>vous connaissez un membre hébergé ici: il peut vous donner une invitation</li>
+</ul></p>
+
+<p>Pour participer à la loterie, vous devez ouvrir un compte gratuit sur lesCigales.ORG,
+ à l'adresse suivante:
+<a href="http://admin.lescigales.org/users/register/free" title="Inscription gratuite">http://admin.lescigales.org/users/register/free</a></p>
+
+<p>Pour recevoir une invitation d'un membre existant, vous pouvez aller regarder sur le <a href="http://forum.lescigales.org/" title="Forum">forum</a> si quelqu'un a une invitation à offrir ou alors sur notre salon IRC <a href="irc://irc.freenode.net/lescigales.org" title="Salon IRC">#lesCigales.ORG</a> (<a href="http://chat.lescigales.org/">Cliquez ici pour accèder au chat en ligne</a>).</p>
+
+<h2>Nous avons besoin de vous</h2>
+<p>
+Nous sommes légalement tenus de retirer tout site qui ne satisfait pas la loi francaise, or il nous est très difficile d'appliquer un contrôle permanent sur chacun des sites publiés sur lesCigales.ORG, c'est pourquoi nous mettons à votre disposition un formulaire de contact que vous pouvez utiliser librement pour nous signaler un site 'hors-charte' ou illégal.</p>
+
+<p>Le formulaire de contact se trouve sur la <a href="/contact" title="Contactez nous !">page contact</a>.</p>
+
+
+<p>Il est à noter que les personnes nous aidant dans notre 'chasse aux sorcières' des sites hors chartes peuvent se voir récompenser d'un hébergement gratuit.</p>
+
+</div>
