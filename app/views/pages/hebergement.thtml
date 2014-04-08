@@ -1,6 +1,6 @@
 <?php
 $this->layout = 'hebergement';
-$this->pageTitle = 'Hébergement gratuit mutualisé sur cluster';
+$this->pageTitle = 'Hébergement gratuit de sites PHP Perl Python Ruby';
 $years = date('Y') - 2003;
 ?>
 
@@ -11,28 +11,45 @@ $years = date('Y') - 2003;
 			
 			<div id="lescigales_maincontent">
 						
-        <div id="lescigales_text">
+<!--        <div id="lescigales_text">
 				  <h1>Hébergement gratuit sans publicité</h1>
-				</div>
+				</div>-->
      
 				<div id="lescigales_freebox">
 					<ul>
 						<li>100 Mo d'espace disque</li>
-						<li>Langages PHP4, PHP5 et Perl</li>
+						<li>Langages PHP 5.X, Perl, Python et Ruby</li>
 						<li>2 bases de données MySQL</li>
-						<li>1 adresse email @lescigales.org</li>
+<!-- 						<li>1 adresse email @lescigales.org</li> -->
 					</ul>
-					<a href="/hebergement-gratuit" title="Hébergement gratuit">En savoir plus</a>
+					<a href="/hebergement-gratuit" title="Hébergement gratuit de sites PHP">En savoir plus</a>
 				</div>
 
 <div id="lescigales_text">
  <p>
 Depuis 2003 (<?php echo $years; ?> ans déjà !), nous avons comme mission de fournir de l'hébergement gratuit au plus grand nombre, hébergement sans publicité aucune, que ce soit popups, frames ou bandeaux, vous n'en trouverez jamais sur vos sites, sauf si vous désirez en mettre * !</p>
 
-<p>Version détaillée de PHP: phpinfo() <a href="/php/info.php" title="phpinfo() de .php" target="_blank">.php</a> <a href="/php/info.php4" title="phpinfo() de .php4" target="_blank">.php4</a> <a href="/php/info.php5" title="phpinfo() de .php5" target="_blank">.php5</a> <a href="/php/info.pl" title="phpinfo() de .pl" target="_blank">.pl</a></p>
+<p><strong>Versions: 
+<?php
 
-<p>* voir <a href="/conditions">conditions</a></p>
+$versions = array();
+$versions['PHP 5.2'] = 'http://cgi.toad.lescigales.org/info.php52fcgi';
+$versions['PHP 5.3'] = 'http://cgi.toad.lescigales.org/info.php53fcgi';
+$versions['PHP 5.4'] = 'http://cgi.toad.lescigales.org/info.php54fcgi';
+$versions['PHP 5.5'] = 'http://cgi.toad.lescigales.org/info.php55fcgi';
+$versions['PHP 5.6'] = 'http://cgi.toad.lescigales.org/info.php56fcgi';
+$versions['Perl 5'] = 'http://cgi.toad.lescigales.org/perl5.pl';
+$versions['Python 2'] = 'http://cgi.toad.lescigales.org/python2.py';
+$versions['Python 3'] = 'http://cgi.toad.lescigales.org/python3.py3';
+$versions['Ruby 1.8'] = 'http://cgi.toad.lescigales.org/version.rb';
+
+foreach ($versions as $v => $l) {
+  echo '<a target="_blank" href="',$l,'">', $v, '</a> ';
+}
+
+?>
+</strong></p>
 
 </div>
 
-	</div>
+</div>

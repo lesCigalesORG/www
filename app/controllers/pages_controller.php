@@ -5,7 +5,7 @@ class PagesController extends AppController
 	 var $name = 'Pages';
 	 var $helpers = array('Html', 'Cache');
 	 var $uses = null;
-	var $cacheAction = '1 hour';
+//	var $cacheAction = '1 hour';
 
 	function beforeFilter()
 	{
